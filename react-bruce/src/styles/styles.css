@@ -1,0 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  border: black solid 1px;
+}
+
+footer {
+  border: black solid 1px;
+}
+/*# sourceMappingURL=styles.css.map */
