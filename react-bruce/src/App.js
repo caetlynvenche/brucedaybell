@@ -4,17 +4,19 @@ import Header from './Header'
 import Footer from './Footer'
 import About from './About'
 import Works from './Works'
-import Contact from './Contact'
+// import Contact from './Contact'
 
 function App() {
 	return (
-    	<div>
+    	<div className='main-container'>
 			<Header />
 
-			<Works />
-			<About />
-			<Contact />
-
+			<div className="content">
+				<Works />
+				<About />
+				{/* <Contact /> */}
+			</div>
+			
 			<Footer />
 		</div>
 	);
